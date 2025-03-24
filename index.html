@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fruits - Premium Fruit Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-apple-alt"></i>
+                <h1>Fresh Fruits</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fresh & Organic Fruits</h1>
+            <p>Order the freshest fruits delivered directly to your doorstep.</p>
+            <button id="orderBtn" class="btn-primary">Order Now</button>
+        </div>
+    </section>
+
+    <section id="shop" class="shop-section">
+        <div class="shop-background"></div>
+        <div class="shop-content">
+            <h2>Our Fruit Shop</h2>
+            <p class="shop-description">Welcome to our premium fruit ordering service! We provide the freshest, high-quality fruits directly from farms to your doorstep.</p>
+            
+            <div class="shop-features">
+                <div class="feature-card">
+                    <i class="fas fa-truck-fast"></i>
+                    <h3>  Fast Delivery</h3>
+                    <p>  Same day delivery for orders placed before noon.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>  Organic Options</h3>
+                    <p>  All our fruits are pesticide-free and naturally grown.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>  Quality Guarantee</h3>
+                    <p>  Not satisfied? We'll replace your order or refund you.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-gift"></i>
+                    <h3>  Gift Baskets</h3>
+                    <p>  Custom fruit baskets for special occasions.</p>
+                </div>
+            </div>
+            
+            <h3 class="selection-title">  Our Delicious Selection</h3>
+            <div class="fruit-grid">
+                <div class="fruit-card">
+                    <div class="fruit-img" style="background-image: url('https://images.unsplash.com/photo-1587132137056-bfbf0166836e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFuZ298fHx8fHwxNjk2MjA2Mjcw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300')"></div>
+                    <h3>  Mango</h3>
+                    <p>  $0.10 each</p>
+                </div>
+                <div class="fruit-card">
+                    <div class="fruit-img" style="background-image: url('https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8YXBwbGV8fHx8fHwxNjk2MjA2MzM0&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300')"></div>
+                    <h3>  Apple</h3>
+                    <p>  $1.20 each</p>
+                </div>
+                <div class="fruit-card">
+                    <div class="fruit-img" style="background-image: url('https://images.unsplash.com/photo-1528821128474-27f963b062bf?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8YmFuYW5hfHx8fHx8MTY5NjIwNjM2OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300')"></div>
+                    <h3>  Banana</h3>
+                    <p>  $0.40 each</p>
+                </div>
+                <div class="fruit-card">
+                    <div class="fruit-img" style="background-image: url('https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80')"></div>
+                    <h3>  Watermelon</h3>
+                    <p>  $3.65 each</p>
+                </div>
+            </div>
+            
+            <div class="seasonal-fruits">
+                <h3>  Seasonal Specials</h3>
+                <div class="season-info">
+                    <p>  We also offer special seasonal fruits throughout the year. Check back often to see what's fresh this season!</p>
+                    <button class="btn-secondary" id="seasonalBtn">View Seasonal Fruits</button>
+                </div>
+            </div>
+            
+            <div class="subscription-box">
+                <h3>  Fruit Subscription Box</h3>
+                <p>  Get a weekly or monthly box of mixed fruits delivered automatically. Save up to 15% with our subscription plans!</p>
+                <div class="subscription-options">
+                    <div class="subscription-option">
+                        <h4>  Weekly Box</h4>
+                        <p class="price">  $25/week</p>
+                        <p>  8-10 seasonal fruits</p>
+                    </div>
+                    <div class="subscription-option">
+                        <h4>  Monthly Box</h4>
+                        <p class="price">  $90/month</p>
+                        <p>  35-40 seasonal fruits</p>
+                    </div>
+                </div>
+                <button class="btn-primary">  Subscribe Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-background"></div>
+        <div class="about-content">
+            <h2>About Us</h2>
+            <div class="about-story">
+                <div class="about-image"></div>
+                <div class="about-text">
+                    <h3>Our Journey</h3>
+                    <p>Fresh Fruits was established with a simple mission: to bring the freshest, farm-direct fruits to your doorstep. We partner with local and international farms to ensure quality and sustainability in every piece of fruit we deliver.</p>
+                    <p>Our team is passionate about fruits and committed to providing exceptional service to our customers.</p>
+                </div>
+            </div>
+            
+            <div class="team-section">
+                <h3>Meet Our Team</h3>
+                <div class="team-members">
+                    <div class="team-member">
+                        <div class="member-photo your-photo"></div>
+                        <h4>Khushansh Yadav</h4>
+                        <p>Founder & CEO</p>
+                        <p class="contact-info">khushanshyadav3@gmail.com</p>
+                        <p class="contact-info">+91 6378017343</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-photo managers-photo"></div>
+                        <h4>Fruit Managers</h4>
+                        <p>Quality Control</p>
+                        <p class="contact-info">quality@freshfruits.com</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-photo delivery-photo"></div>
+                        <h4>Delivery Team</h4>
+                        <p>Logistics</p>
+                        <p class="contact-info">delivery@freshfruits.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="website-info">
+                <h4>About this website</h4>
+                <p>This website was designed and developed by Khushansh Yadav. For website development inquiries, please contact at <a href="mailto:khushanshyadav3@gmail.com">khushanshyadav3@gmail.com</a> or +91 6378017343.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ordering-process">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-icon">1</div>
+                <h3>Select Fruit</h3>
+                <p>Choose from our fresh selection of premium fruits.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">2</div>
+                <h3>Choose Quantity</h3>
+                <p>Tell us how many you'd like.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">3</div>
+                <h3>Confirm Order</h3>
+                <p>Review your order and confirm.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">4</div>
+                <h3>Enjoy!</h3>
+                <p>Experience the freshness at your doorstep.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <p>The fruits are always fresh and delivered on time. Highly recommend!</p>
+                <div class="customer-info">
+                    <div class="customer-name">Sarah Johnson</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <p>Amazing quality fruits! The mangoes and blueberries were exceptional.</p>
+                <div class="customer-info">
+                    <div class="customer-name">Michael Brown</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Fresh Fruits</h3>
+                <p>Delivering fresh, premium quality fruits to your doorstep since 2015.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +91 6378017343</p>
+                <p><i class="fas fa-envelope"></i> khushanshyadav3@gmail.com</p>
+                <p><i class="fas fa-info-circle"></i> For website making contact Khushansh (making charges included)</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Fresh Fruits. All Rights Reserved.</p>
+            <p class="developer-credit">Website developed by Khushansh Yadav • <a href="mailto:khushanshyadav3@gmail.com">Contact for website services</a> • (Making charges included)</p>
+        </div>
+    </footer>
+
+    <div class="web-services-badge">
+        <i class="fas fa-code"></i>
+        <span>Website by: Khushansh Yadav • <a href="mailto:khushanshyadav3@gmail.com">khushanshyadav3@gmail.com</a> • +91 6378017343</span>
+    </div>
+
+    <div class="floating-contact">
+        <div class="pulse"></div>
+        <button id="contactBtn" class="floating-btn">
+            <i class="fas fa-code"></i>  Website Services
+        </button>
+        <div class="contact-popup" id="contactPopup">
+            <h3>Website Development Services</h3>
+            <p>Custom websites built by Khushansh Yadav</p>
+            <p><i class="fas fa-phone"></i> +91 6378017343</p>
+            <p><i class="fas fa-envelope"></i> khushanshyadav3@gmail.com</p>
+            <p><i class="fas fa-info-circle"></i> Making charges included</p>
+        </div>
+    </div>
+
+    <div class="mini-contact">
+        <button id="miniContactBtn" class="mini-contact-btn" title="Website Creation Services">
+            <i class="fas fa-code"></i>
+        </button>
+        <div class="mini-contact-info" id="miniContactInfo">
+            <h4>Website Services</h4>
+            <p>Contact: Khushansh Yadav</p>
+            <p>+91 6378017343</p>
+        </div>
+    </div>
+
+    <div class="website-design-section">
+        <div class="design-header">
+            <i class="fas fa-code"></i> Website Design
+        </div>
+        <p>Need a custom website?</p>
+        <div class="designer-info">
+            <p><i class="fas fa-user"></i> Khushansh Yadav</p>
+            <p><i class="fas fa-phone"></i> +91 6378017343</p>
+            <p><i class="fas fa-envelope"></i> khushanshyadav3@gmail.com</p>
+        </div>
+        <p class="making-charges">Making charges included</p>
+    </div>
+
+    <script src="switch.js"></script>
+    <script>
+        document.getElementById('orderBtn').addEventListener('click', function() {
+            output_fruit();
+        });
+        
+        document.getElementById('seasonalBtn').addEventListener('click', function() {
+            alert("Our current seasonal specials: Peaches, Blueberries, and Watermelon!");
+        });
+
+        document.getElementById('contactBtn').addEventListener('click', function() {
+            document.getElementById('contactPopup').classList.toggle('show');
+        });
+
+        document.getElementById('miniContactBtn').addEventListener('click', function() {
+            document.getElementById('miniContactInfo').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
