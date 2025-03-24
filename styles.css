@@ -950,19 +950,19 @@ footer {
 
 /* Team member photos with the actual images */
 .your-photo {
-    background-image: url('images/khushansh.jpg'); /* Your personal image */
+    background-image: url('khushansh.jpg'); /* Your personal image */
     background-size: cover;
     background-position: center;
 }
 
 .managers-photo {
-    background-image: url('images/managers.jpg'); /* Managers image with fruit banner */
+    background-image: url('managers.jpg'); /* Managers image with fruit banner */
     background-size: cover;
     background-position: center;
 }
 
 .delivery-photo {
-    background-image: url('images/delivery-team.jpg'); /* Delivery team image */
+    background-image: url('delivery-team.jpg'); /* Delivery team image */
     background-size: cover;
     background-position: center;
 }
